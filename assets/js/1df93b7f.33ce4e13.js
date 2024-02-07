@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenvio_site=self.webpackChunkenvio_site||[]).push([[552],{9396:(e,s,t)=>{t.r(s),t.d(s,{default:()=>i});t(1504);var n=t(5592),u=t(7624);function i(){return(0,u.jsx)(n.YJ,{to:"/home"})}}}]);
