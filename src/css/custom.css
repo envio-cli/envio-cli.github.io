@@ -30,10 +30,3 @@ html[data-theme='dark'] {
   --ifm-background-color: #121212;
   --ifm-background-surface-color: #121212;
 }
-
-
-@font-face {
-  font-family: "LeagueMono Regular";  
-  src: local("LeagueMono"),
-    url("/static/fonts/LeagueMono-Medium.ttf") format("truetype");
-}

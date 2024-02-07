@@ -25,7 +25,6 @@ export function Header() {
         <h1
           style={{
             paddingBottom: "20px",
-            fontFamily: "LeagueMono Regular",
           }}
         >
           envio
