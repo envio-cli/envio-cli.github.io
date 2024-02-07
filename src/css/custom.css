@@ -1,0 +1,39 @@
+:root {
+  --ifm-color-primary: #51A4FB;
+  --ifm-color-primary-dark: #469cf8;
+  --ifm-color-primary-darker: #50a2fa;
+  --ifm-color-primary-darkest: #3798ff;
+  --ifm-color-primary-light: #5faafb;
+  --ifm-color-primary-lighter: #53a4fb;
+  --ifm-color-primary-lightest: #82bfff;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #121212;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #51A4FB;
+  --ifm-color-primary-dark: #469cf8;
+  --ifm-color-primary-darker: #50a2fa;
+  --ifm-color-primary-darkest: #3798ff;
+  --ifm-color-primary-light: #5faafb;
+  --ifm-color-primary-lighter: #53a4fb;
+  --ifm-color-primary-lightest: #82bfff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] footer {
+  background-color: #121212;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #121212;
+}
+
+
+@font-face {
+  font-family: "LeagueMono Regular";  
+  src: local("LeagueMono"),
+    url("/static/fonts/LeagueMono-Medium.ttf") format("truetype");
+}
