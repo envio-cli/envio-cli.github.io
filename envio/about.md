@@ -8,13 +8,12 @@ sidebar_position: 2
 
 Some of the key features of envio include:
 
-- **Encrypted profiles** through passphrase or GPG encryption. See [encryption types](./encryption-methods) for more information.
-- **Load** profiles into your terminal sessions
-- **Persistent** environment variables that are available in future sessions
+- **Encrypted** profiles through `passphrase` or `GPG` encryption. See [encryption types](./encryption-methods)
+- **Load** profiles into your `terminal sessions`
+- **Persistent** environment variables that are available in `future sessions`
 - **Run** programs with your profiles
-- **Importing** profiles from a file
-- **Downloading** profiles and then importing them
-- **Exporting** profiles to a file such as a `.env` file
+- **Importing** profiles stored on the internet into your local installation
+- **Exporting** profiles to a file
 
 The following platforms are currently supported:
 - **Windows**

@@ -27,26 +27,12 @@ import TabItem from '@theme/TabItem';
     Or you can download the `.tar.gz` archive from the releases page as well. Ensure it matches your architecture.
 
    
-    # Chocolatey (Windows Package Manager)
-    
-    To install `envio` using Chocolatey, run:
-    
-    ```bash
-    choco install envio
-    ```
+    # Chocolatey
+    🚧 Will be available soon 
 
-    Chocolatey is a popular package manager for Windows. It allows you to install, update, and manage software packages from the command line or with a graphical user interface.
-    
-    # Scoop (Windows Package Manager)
+    # Scoop
+    🚧 Will be available soon
 
-    To install `envio` using Scoop, run:
-    
-    ```bash
-    scoop install envio
-    ```
-    
-    Scoop is another package manager for Windows that focuses on simplicity and minimalism. It's similar to Chocolatey but has a different approach to package management.
-    
 </TabItem>
 
   <TabItem value="macos" label="Mac OS">
@@ -74,16 +60,23 @@ import TabItem from '@theme/TabItem';
     paru -S envio-bin
     ```
 
-    # Other Linux Distributions
-    `envio` is also available as a `.deb` and also as a `.tar.gz` file for other Linux distributions. You can find the latest version on the [releases page](https://github.com/envio-cli/envio/releases/latest).
+    # Debian/Ubuntu
+    On Debian based systems you can currently only install `envio` via the `.deb` package available on the [releases page](https://github.com/envio-cli/envio/releases/latest).
 
+    ```sh
+    sudo dpkg -i envio_0.5.0_amd64.deb # Adjust the version and architecture accordingly
+    ```
+
+    # Releases
+    Archives are available on the [releases page](https://github.com/envio-cli/envio/releases/latest). They contain the binary and some extra files such as shell completions.
+    
     Here is a list of the following architectures that are officially supported:
     - `aarch64`
     - `amd64`
     - `x86_64`
     - `i686`
 
-    In the future we plan to support installing `envio` via other package managers
+    In the future we plan to support installing `envio` via other package managers as well.
   </TabItem>
 
 </Tabs>
