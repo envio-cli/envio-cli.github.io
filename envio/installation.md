@@ -66,7 +66,13 @@ import TabItem from '@theme/TabItem';
     ```sh
     sudo dpkg -i envio_0.5.0_amd64.deb # Adjust the version and architecture accordingly
     ```
+    # Nix
+    You can install `envio` using the [nix package manager](https://nixos.org/)
 
+    ```bash
+    nix-env -i envio
+    ```
+    
     # Releases
     Archives are available on the [releases page](https://github.com/envio-cli/envio/releases/latest). They contain the binary and some extra files such as shell completions.
     
