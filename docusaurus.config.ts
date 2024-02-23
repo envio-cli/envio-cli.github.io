@@ -62,7 +62,7 @@ const config: Config = {
     announcementBar: {
       id: 'support_palestine',
       content:
-        'Support Palestine 🇵🇸 <a target="_blank" rel="noopener noreferrer" href="https://opensource.facebook.com/support-ukraine"> Help Provide Humanitarian Aid to Palestine</a>.',
+        'Support Palestine 🇵🇸 <a target="_blank" rel="noopener noreferrer" href="https://irusa.org/middle-east/palestine/"> Help Provide Humanitarian Aid to Palestine</a>.',
       backgroundColor: '#121212',
       textColor: '#fff',
       isCloseable: false,
