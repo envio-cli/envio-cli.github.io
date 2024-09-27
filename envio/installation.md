@@ -8,7 +8,7 @@ This section will guide you through the installation process of `envio` on your 
 
 :::warning
 
-After installing `envio`, take a look at the [GPG Encryption](./encryption-methods.md#gpg-encryption) section to install the necessary dependencies for GPG encryption. 
+After installing `envio`, take a look at the [GPG Encryption](./encryption-methods.md#gpg-encryption) section to install the necessary dependencies for GPG encryption.
 
 Failure to do so will result in `envio` crashing. In a future release, we plan to make the installation of these dependencies optional. But for now, it is **mandatory** to install them.
 :::
@@ -26,9 +26,9 @@ import TabItem from '@theme/TabItem';
 
     Or you can download the `.tar.gz` archive from the releases page as well. Ensure it matches your architecture.
 
-   
+
     # Chocolatey
-    🚧 Will be available soon 
+    🚧 Will be available soon
 
     # Scoop
     🚧 Will be available soon
@@ -46,7 +46,7 @@ import TabItem from '@theme/TabItem';
     ```
 
     # Releases
-    Like other platforms, you can install `envio` via the [releases page](https://github.com/envio-cli/envio/releases/latest) and download the `.tar.gz` file which contains the binary. Ensure you download the `.tar.gz` file which contains the word `darwin` in it. 
+    Like other platforms, you can install `envio` via the [releases page](https://github.com/envio-cli/envio/releases/latest) and download the `.tar.gz` file which contains the binary. Ensure you download the `.tar.gz` file which contains the word `darwin` in it.
 
   </TabItem>
 
@@ -54,10 +54,12 @@ import TabItem from '@theme/TabItem';
     #
 
     # AUR (Arch User Repository)
+    The AUR repository for `envio` is maintained by [vitaliikuzhdin](https://aur.archlinux.org/account/vitaliikuzhdin)
+
     You can install `envio` from the AUR using your favorite AUR helper. Here is an example using `paru`:
 
     ```bash
-    paru -S envio-bin
+    paru -S envio
     ```
 
     # Debian/Ubuntu
@@ -72,10 +74,10 @@ import TabItem from '@theme/TabItem';
     ```bash
     nix-env -i envio
     ```
-    
+
     # Releases
     Archives are available on the [releases page](https://github.com/envio-cli/envio/releases/latest). They contain the binary and some extra files such as shell completions.
-    
+
     Here is a list of the following architectures that are officially supported:
     - `aarch64`
     - `amd64`
@@ -83,6 +85,7 @@ import TabItem from '@theme/TabItem';
     - `i686`
 
     In the future we plan to support installing `envio` via other package managers as well.
+
   </TabItem>
 
 </Tabs>
@@ -92,6 +95,3 @@ import TabItem from '@theme/TabItem';
     When installing `envio` from the releases page, ensure you download the package that matches your system's **architecture**.
 
 :::
-
-
-
